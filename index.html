@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./src/imagens/code-solid.svg"
+      sizes="32x32"
+      type="svg"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/painel.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <title>Thiago Pedrer | Desenvolvedor Frontend</title>
+
+    <script
+      src="https://kit.fontawesome.com/2732c5e000.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="painel">
+      <header class="header">
+        <div class="container">
+          <div class="row justify-content-between alinhar-itens-no-centro">
+            <a href="#">
+              <h1 class="logo">TP</h1>
+            </a>
+            <nav>
+              <input id="menu-hamburguer" type="checkbox" title="input" />
+              <label for="menu-hamburguer">
+                <div class="menu">
+                  <span class="hamburguer"></span>
+                </div>
+              </label>
+              <ul>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Meus projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="home">
+        <div class="container">
+          <div class="row flex-direction full-screen alinhar-itens-no-centro">
+            <div class="img-home">
+              <div class="img-box inner/shadow">
+                <img class="outer-shadow" src="./src/imagens/Foto-perfil.jpg" />
+              </div>
+            </div>
+
+            <div class="texto-home">
+              <h1>Thiago Pedrero</h1>
+
+              <h2>Desenvolvedor Frontend</h2>
+
+              <div class="redes-sociais">
+                <a
+                  href="https://www.linkedin.com/in/thiago-pedrero-0767a7254/"
+                  class="outer-shadow"
+                  title="icon linkedin"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=5543984594988&text=Ol%C3%A1,%20Tudo%20bem?"
+                  class="outer-shadow"
+                  title="icon whatsapp"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+                <a
+                  href="https://github.com/T4goz2005"
+                  class="outer-shadow"
+                  title="icon github"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/teagolz/"
+                  class="outer-shadow"
+                  title="icon instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="imagem-sobre-mim">
+            <div class="img-box">
+              <a
+                href="https://www.flaticon.com/free-icons/monitor"
+                title="monitor icons"
+              >
+                <img
+                  src="./src/imagens/impressao-3d.png"
+                  alt="foto sobre mim"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong
+                >Olá! Me chamo Thiago luiz e sou um desenvolvedor frontend em
+                formação!</strong
+              >
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso
+              contribuir em qualquer time com as minhas habilidades.
+            </p>
+
+            <p>
+              Estou sempre me desafiando coim novos projetos e participando de
+              comunidades de programação para buscar feedback de outros
+              desenvolvedores e desenvolvedoras. Além de tentar ajudar essas
+              pessoas com o que eu já aprendi. 😁
+            </p>
+
+            <p>Ah, Gosto de jogar futebol e Tocar violão nas horas vagas. 💜</p>
+            <div class="botoes">
+              <a
+                target="_blank"
+                href="./src/arquivos/Moderno Profissional Currículo.pdf.pdf"
+                class="botao"
+                >Veja meu CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="container-habilidades">
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
+          </div>
+
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
+          </div>
+
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+          </div>
+
+          <div class="informacoes github">
+            <div class="logo">
+              <i class="devicon devicon-github-original" id="github"></i>
+            </div>
+            <h3>GitHub</h3>
+          </div>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+          </div>
+
+          <div class="informacoes node">
+            <div class="logo">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <h3>Node Js</h3>
+          </div>
+
+          <div class="informacoes node">
+            <div class="logo">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Meus projetos</h2>
+          </div>
+        </div>
+
+        <div
+          class="container-projetos row justify-content alinhar-itens-no-centro"
+        >
+          <div class="projeto">
+            <a href="https://github.com/joaovitor-souza/projeto-pokemon-slider">
+              <img
+                src="./src/imagens/img-projeto-pokemon.png"
+                alt="Nome do projeto"
+              />
+              <h3>Projeto Carrocel Imagem Pokemon</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://github.com/joaovitor-souza/quest-huddle-lading-page"
+            >
+              <img src="./src/imagens/projeto-2.png" alt="Nome do projeto" />
+              <h3>Projeto Huddle Lading Page</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito com HTML e CSS</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://github.com/joaovitor-souza/quest-js-intermediario-formulario"
+            >
+              <img src="./src/imagens/projeto-3.png" alt="Nome do projeto" />
+              <h3>Projeto simulação envio de formulário</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contato">
+      <div class="container">
+        <h2>Me envie uma mensagem!</h2>
+      </div>
+
+      <div class="formulario">
+        <form
+          class="contato"
+          action="https://api.staticforms.xyz/submit"
+          method="post"
+        >
+          <label>Nome</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Digite seu nome"
+            class="campos"
+            autocomplete="none"
+            required
+          />
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Digite seu email"
+            class="campos"
+            autocomplete="none"
+            required
+          />
+          <label>Mensagem</label>
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Digite sua mensagem"
+            class="campos"
+            autocomplete="none"
+            required
+          ></textarea>
+          <button type="submit" class="btn-enviar">Enviar</button>
+          <input
+            type="hidden"
+            name="accessKey"
+            value="5f38fc0e-1e5d-49a1-8d09-5556c30f91b8"
+          />
+          <input
+            type="hidden"
+            name="redirectTo"
+            value="https://joaovitor-souza.github.io/meu_portfolio/obrigado"
+          />
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
