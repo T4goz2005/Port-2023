@@ -20,7 +20,7 @@
 
 .habilidades .informacoes:hover {
   cursor: pointer;
-  color: var(--cor-primaria);
+  transform: scale(1.1);
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
@@ -28,7 +28,7 @@
   font-size: var(--fonte-extra-grande);
   font-weight: 500;
   margin-bottom: 20px;
-  color: var(--cor-primaria);
+  color : #7031BF;
 }
 
 .habilidades .container-habilidades .informacoes p {

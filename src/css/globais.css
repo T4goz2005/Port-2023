@@ -52,6 +52,7 @@ body {
   margin: 0 4px;
   border-radius: 50%;
   transition: all 0.3s ease;
+  background-color: #222327;
 }
 
 .redes-sociais a i {
@@ -59,7 +60,7 @@ body {
 }
 
 .redes-sociais a:hover {
-  color: var(--cor-primaria);
+  transform: scale(1.2);
 }
 
 .outer-shadow {
@@ -86,18 +87,19 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   padding-bottom: 20px;
+  border-bottom: 1px solid white;
 }
 
 .botao {
   font-size: var(--fonte-grande);
   padding: 10px 20px;
-  transition: all 0.3s ease;
-  border: 2px solid #5fe36a;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #7031BF;
+  border-radius: 20px;
 }
 
-.botao:hover {
-  background-color: var(--cor-secundaria);
-  color: var(--cor-branca);
+.botao:hover{
+  background-color: #ffffff51;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }

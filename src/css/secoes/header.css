@@ -3,12 +3,15 @@
 }
 
 .header .logo {
+  color: #fff;
+  font-weight: bold;
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-extra-grande);
-  border-bottom: 1px solid var(--cor-branca);
+  border-bottom: 5px solid #222327;
+  border-top: 5px solid #222327;
   width: 65px;
   height: 65px;
-  line-height: 70px;
+  line-height: 55px;
   text-align: center;
   transition: 0.2s ease-in-out;
 }
@@ -28,17 +31,14 @@
   padding: 10px 0;
   margin-inline: 10px;
   position: relative;
+  background-color: #222327;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.8s ease-in-out;
 }
 
-.header nav li a::after {
-  content: "";
-  width: 0%;
-  height: 4px;
-  background-color: #ffff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transition: 0.5s ease-in-out;
+.header nav li:hover {
+  transform: scale(1.1);
 }
 
 .header nav li a:hover::after {
