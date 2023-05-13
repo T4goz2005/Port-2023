@@ -1,3 +1,27 @@
+.footerr {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+.footerr .container {
+  padding: 5rem 0;
+}
+
+.footerr h2 {
+  font-family: var(--fonte-secundaria);
+  font-size: var(--fonte-normal);
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.container {
+max-width: 1140px;
+margin: auto;
+}
+
+
 .footer {
   margin-top: 7rem;
   background-color: var(--cor-secundaria);
@@ -54,7 +78,7 @@
 .footer .contato .btn-enviar {
   padding: 15px;
   cursor: pointer;
-  background-color: #34a479;
+  background-color: #7031BF;
   color: #f5f5f5;
   transition: 0.5s;
   margin-bottom: 20px;
