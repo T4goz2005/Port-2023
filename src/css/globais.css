@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: url(/src/imagens/fundo-black.jpg);
+  background-image: url(src/imagens/fundo-black.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
