@@ -9,7 +9,7 @@
 .habilidades .container-habilidades .informacoes {
   min-width: 190px;
   padding: 40px 20px;
-  background-color: var(--cor-secundaria);
+  background-color: #111111;
   margin: 10px;
   border-radius: 10px;
 }
@@ -28,7 +28,7 @@
   font-size: var(--fonte-extra-grande);
   font-weight: 500;
   margin-bottom: 20px;
-  color : #7031BF;
+  color : #d4af37;
 }
 
 .habilidades .container-habilidades .informacoes p {

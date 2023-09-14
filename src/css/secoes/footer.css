@@ -3,6 +3,7 @@
   text-align: center;
 }
 
+
 .footerr .container {
   padding: 5rem 0;
 }
@@ -38,7 +39,7 @@ margin: auto;
 .footer h2 {
   color: #fff;
   padding-bottom: 16px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #d4af37;
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-grande);
   font-weight: 700;
@@ -81,7 +82,7 @@ margin: auto;
 .footer .contato .btn-enviar {
   padding: 15px;
   cursor: pointer;
-  background-color: #7031BF;
+  background-color: #d4af37;
   color: #f5f5f5;
   transition: 0.5s;
   margin-bottom: 20px;

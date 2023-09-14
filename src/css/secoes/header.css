@@ -4,7 +4,7 @@
 }
 
 .header .logo {
-  color: #fff;
+  color: #d4af37;
   font-weight: bold;
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-extra-grande);
@@ -127,12 +127,19 @@
     top: 30px;
     right: 20px;
     z-index: 1;
+    height: 200px;
   }
 
   .header nav ul {
     display: none;
-    background-color: var(--cor-escura);
+    background-color: #111111;
     padding: 20px;
+    
+  }
+
+  .header nav ul {
+    gap: 15px;
+    padding: 10px;
   }
 
   .header nav li a {

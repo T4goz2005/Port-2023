@@ -48,7 +48,7 @@ body {
   height: 40px;
   font-size: 1.8rem;
   text-align: center;
-  color: var(--cor-branca);
+  color: #d4af37;
   margin: 0 4px;
   border-radius: 50%;
   transition: all 0.3s ease;
@@ -87,14 +87,14 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   padding-bottom: 20px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #d4af37;
 }
 
 .botao {
   font-size: var(--fonte-grande);
   padding: 10px 20px;
   transition: all 0.3s ease-in-out;
-  border: 2px solid #7031BF;
+  border: 2px solid #d4af37;
   border-radius: 20px;
 }
 
