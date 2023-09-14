@@ -8,7 +8,6 @@ html {
 }
 
 body {
-  background-image: url(/src/imagens/seleto-pers.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,7 +16,6 @@ body {
 }
 
 .painel {
-
   background-size: cover;
   min-height: 86vh;
 }
@@ -100,7 +98,7 @@ body {
   border-radius: 20px;
 }
 
-.botao:hover{
+.botao:hover {
   background-color: #ffffff51;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
