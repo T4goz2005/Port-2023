@@ -1,5 +1,5 @@
 .home .full-screen {
-  padding: 50px 0;
+  padding-top:   11rem;
   border-radius: 10px;
 }
 
@@ -24,9 +24,9 @@
 
 .home .img-home .img-box img {
   width: 90%;
-  height: 310px;
+  height: 300px;
   border-radius: 50%;
-  border: 7px solid;
+  border: 7px solid black;
 }
 
 .home .texto-home p {
@@ -40,7 +40,7 @@
   font-size: var(--fonte-gigante);
   font-weight: 700;
   margin-bottom: 20px;
-  border-bottom: 2px solid #Fff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .home .texto-home h2 {

@@ -8,14 +8,16 @@ html {
 }
 
 body {
-  background-color: var(--cor-fundo-cinza-escuro);
+  background-image: url(/src/imagens/fundo-black.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: var(--fonte-primaria);
   font-size: var(--fonte-normal);
 }
 
 .painel {
-  background-color: rgb(7, 35, 35);
-  background-image: url(../imagens/baenner.jpg);
+
   background-size: cover;
   min-height: 86vh;
 }
@@ -72,7 +74,7 @@ body {
 }
 
 .section {
-  padding: 7rem 0 7rem;
+  padding: 5rem 0 7rem;
 }
 
 .section-title {

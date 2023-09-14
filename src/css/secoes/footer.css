@@ -8,11 +8,12 @@
 }
 
 .footerr h2 {
+  padding-bottom: 15px;
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-normal);
   font-weight: 700;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   padding-bottom: 20px;
 }
 
@@ -24,7 +25,6 @@ margin: auto;
 
 .footer {
   margin-top: 7rem;
-  background-color: var(--cor-secundaria);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +36,9 @@ margin: auto;
 }
 
 .footer h2 {
+  color: #fff;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #fff;
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-grande);
   font-weight: 700;
@@ -46,7 +49,7 @@ margin: auto;
 
 .footer .formulario {
   width: 500px;
-  background-color: #1d1d2e;
+  background-color: #121212cd;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   padding: 10px 20px;
