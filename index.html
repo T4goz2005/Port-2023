@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="src/css/secoes/header.css" />
     <link rel="stylesheet" href="src/css/secoes/home.css" />
     <link rel="stylesheet" href="src/css/secoes/sobre.css" />
-    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/slide.css" />
     <link rel="stylesheet" href="src/css/secoes/projetos.css" />
     <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
@@ -149,74 +149,110 @@
                 target="_blank"
                 href="./src/arquivos/THIAGO-PEDRERO.pdf"
                 class="botao"
-                >Veja meu CV</a
-              >
+                >Veja meu CV </a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="habilidades section" id="habilidades">
-      <div class="container">
-        <div class="row">
-          <div class="section-title">
-            <h2>Habilidades</h2>
-          </div>
+    <section class="slide">
+      <!-- Título -->
+      <div class="titulo">
+        <h2>TECNOLOGIAS</h2>
+        <div class="setas">
+          <button class="seta voltar" id="seta-voltar">
+            <img src="./src/imagens/icone-seta-branco.png">
+          </button>
+          <button class="seta avancar" id="seta-avancar">
+            <img src="./src/imagens/icone-seta-branco.png">
+          </button>
         </div>
-
-        <div class="container-habilidades">
-          <div class="informacoes javascript">
-            <div class="logo">
-              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+      </div>
+      <!-- Slide -->
+      <div class="slide">
+        <div class="itens" id="itens-slide">
+          <!-- Item -->
+          <div class="item">
+            <div class="cliente">
+              <img src="./src/imagens/Img-tech-logos/html-logo-removebg-preview.png">
+              <div class="texto">
+                <h3>HTML5</h3>
+                <h4>Front-End</h4>
+              </div>
             </div>
-            <h3>JavaScript</h3>
+            <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML</p>
           </div>
-
-          <div class="informacoes html">
-            <div class="logo">
-              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          <!-- Item -->
+          <div class="item">
+            <div class="cliente">
+              <img src="./src/imagens/Img-tech-logos/css-logo-removebg-preview.png">
+              <div class="texto">
+                <h3>CSS3</h3>
+                <h4>Front-End</h4>
+              </div>
             </div>
-            <h3>HTML5</h3>
+            <p>Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags;</p>
           </div>
-
-          <div class="informacoes css">
-            <div class="logo">
-              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          <!-- Item -->
+          <div class="item">
+            <div class="cliente">
+              <img src="./src/imagens/Img-tech-logos/javascript-logo.png">
+              <div class="texto">
+                <h3>JavaScript</h3>
+                <h4>Front-End</h4>
+              </div>
             </div>
-            <h3>CSS3</h3>
+            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS.</p>
           </div>
-
-          <div class="informacoes github">
-            <div class="logo">
-              <i class="devicon devicon-github-original" id="github"></i>
+          <!-- Item -->
+          <div class="item">
+            <div class="cliente">
+              <img src="./src/imagens/Img-tech-logos/react-logo-removebg-preview.png">
+              <div class="texto">
+                <h3>React</h3>
+                <h4>Front-End</h4>
+              </div>
             </div>
-            <h3>GitHub</h3>
+            <p>O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.</p>
           </div>
-
-          <div class="informacoes git">
-            <div class="logo">
-              <i class="devicon devicon-git-plain" id="git"></i>
+          <!-- Item -->
+          <div class="item">
+            <div class="cliente">
+              <img src="./src/imagens/Img-tech-logos/type-logo.png">
+              <div class="texto">
+                <h3>TypeScipt</h3>
+                <h4>Front-End</h4>
+              </div>
             </div>
-            <h3>Git</h3>
+            <p>TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.</p>
           </div>
-
-          <div class="informacoes node">
-            <div class="logo">
-              <i class="fab fa-node-js"></i>
+          <!-- Item -->
+          <div class="item">
+            <div class="cliente">
+              <img src="./src/imagens/Img-tech-logos/nodejs-logo-removebg-preview.png">
+              <div class="texto">
+                <h3>Node JS</h3>
+                <h4>Front-End And Back-End</h4>
+              </div>
             </div>
-            <h3>Node Js</h3>
+            <p>Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.</p>
           </div>
-
-          <div class="informacoes node">
-            <div class="logo">
-              <i class="fab fa-react"></i>
+          <!-- Item -->
+          <div class="item">
+            <div class="cliente">
+              <img src="./src/imagens/Img-tech-logos/github-logo-removebg-preview.png">
+              <div class="texto">
+                <h3>Git Hub</h3>
+                <h4>Front End and Back-End</h4>
+              </div>
             </div>
-            <h3>React</h3>
+            <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores.</p>
           </div>
         </div>
       </div>
     </section>
+
 
     <section class="projetos section" id="projetos">
       <div class="container">
@@ -230,7 +266,7 @@
           class="container-projetos row justify-content alinhar-itens-no-centro"
         >
           <div class="projeto">
-            <a href="https://t4goz2005.github.io/Basic-Login/">
+            <a href="https://t4goz2005.github.io">
               <img
                 src="./src/imagens/countdown.jpg"
                 alt="Nome do projeto"
@@ -400,4 +436,6 @@
       </div>
     </footer>
   </body>
+
+  <script src="./src/js/slide.js"></script>
 </html>
